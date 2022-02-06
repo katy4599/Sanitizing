@@ -9,10 +9,10 @@ async function main() {
     const isFinished = clean(resp);
 
     if (isFinished) {
-        console.log('Done');
-        } else {
-            console.log('Not done.')
-        }
+        console.log('Done!');
+    } else {
+        console.log('Not done!')
     }
+}
 
 main();
